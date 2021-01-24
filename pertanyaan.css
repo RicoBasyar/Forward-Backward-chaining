@@ -1,0 +1,53 @@
+.container{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.pertanyaan{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.submit{
+    width: 300px;
+    height: 30px;
+}
+
+.kembali{
+    position: absolute;
+    bottom: 50%;
+    left: 46.5%;
+    width: 100px;
+    height: 30px;
+}
+
+.container button{
+    margin-left: 300px;
+    top: 120%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.custom-select{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+}
+
+.selesai{
+    position: absolute;
+    right: 2%;
+    top: 300%;
+    width: 200px;
+    height: 30px;
+}
